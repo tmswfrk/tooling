@@ -1,0 +1,22 @@
+# General
+alias vi='/usr/bin/vim'
+
+# Python specific
+# Set up a general virtualenv for python 3.X (update this to reflect version installed)
+# `brew install python` && `virtualenv -p python3 ~/.venv/p3/`
+PY_VERS_INSTALLED=3.7
+alias python='/usr/local/opt/python@${PY_VERS_INSTALLED}/bin/python3'
+alias p3='source /Users/jclarke/.venv/p3/bin/activate'
+
+# Home Network Only
+alias rpi='ssh james@192.168.1.115'
+alias rpi='ssh james@raspberrypi' # requires add to /etc/hosts
+alias rpii='ssh james@192.168.1.116'
+
+# For the Unifi cloud controller configured in Azure
+alias ccssh='ssh-add ~/.ssh/UnifiController_keypair.pem && ssh azunifi@4.155.9.208'
+
+# Clear screen
+alias clera="clear"
+alias claer="clear"
+alias cs="clear"

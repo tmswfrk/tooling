@@ -1,0 +1,5 @@
+# Application specific changes to PATH
+# These obviously need to exist for these to work
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="$PATH:/Users/jclarke/bin"
+export PATH="$PATH:/Users/jclarke/code/android_dev_tools"
